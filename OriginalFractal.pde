@@ -15,7 +15,7 @@ public void mouseClicked()
   fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 }
 
-public void myFractal(int x, int y, int siz)
+public void myFractal(float x, float y, float siz)
 {
   circle(x,y,siz);
   if(siz > 10)
