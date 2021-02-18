@@ -17,7 +17,7 @@ public void mouseClicked()
 
 public void myFractal(float x, float y, float siz)
 {
-  circle(x,y,siz);
+  ellipse(x,y,siz,siz);
   if(siz > 10)
   {
     myFractal(x,y,siz/2);
