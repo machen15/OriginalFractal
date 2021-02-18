@@ -9,13 +9,15 @@ public void draw()
 {
   myFractal(0,0,500);
 }
+
 public void mouseClicked() 
 {
   fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 }
+
 public void myFractal(int x, int y, int siz)
 {
-  square(x,y,siz);
+  circle(x,y,siz);
   if(siz > 10)
   {
     myFractal(x,y,siz/2);
